@@ -1,0 +1,40 @@
+.box {
+    margin-left: 37.5vw;
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 25vw;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: rgba(71, 96, 112, 0.431);
+    box-shadow: 5px blue;
+    transform: translate3d(0, 0, 0);
+    z-index: -1;
+}
+
+.inputField {
+    margin-top: 2vh;
+    height: 4vh;
+    width: 24.5vw;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.errorMess {
+    border-radius: 11px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.info {
+    margin: auto;
+    height: 25vh;
+    width: 25vw;
+    text-align: center;
+}
+
+.fa {
+    color: red;
+}
